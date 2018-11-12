@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Applying Convolutional Neural Network on the MNIST dataset
+title: Applying Deep Neural Network on the MNIST dataset
 comments: true
 ---
 
