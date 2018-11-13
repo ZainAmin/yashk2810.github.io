@@ -58,6 +58,24 @@ Actual image of the Above Data
 plt.imshow(x_train[0])
 plt.show()
 ```
+![MNIST](https://raw.githubusercontent.com/ZainAmin/zainamin.github.io/master/images/actualimagemnist.PNG "MNIST")
+
+Binary form of above image
+
+```python
+plt.imshow(x_train[0], cmap = plt.cm.binary)
+plt.show()
+```
+![MNIST](https://raw.githubusercontent.com/ZainAmin/zainamin.github.io/master/images/actualimagebinary.PNG "MNIST")
+
+Now we have to normalize the image data to scale pixel value between 0-1 instead of 0-255
+
+```python
+x_train = tf.keras.utils.normalize(x_train, axis = 1)
+x_test = tf.keras.utils.normalize(x_test, axis = 1)
+```
+
+Now the actual pixel values we have to pass through the deep neural network will be between 0-1 i.e. in binary form
 
 
 
