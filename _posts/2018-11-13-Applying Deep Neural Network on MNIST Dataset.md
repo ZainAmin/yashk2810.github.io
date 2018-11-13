@@ -50,5 +50,5 @@ Actual data to pass through the deep neural network
 ```python
 print(x_train[0])
 ```
-![MNIST](https://raw.githubusercontent.com/ZainAmin/zainamin.github.io/master/images/imagepixeldata.png "MNIST")
+![MNIST](https://raw.githubusercontent.com/ZainAmin/zainamin.github.io/master/images/imagepixeldata.PNG "MNIST")
 
