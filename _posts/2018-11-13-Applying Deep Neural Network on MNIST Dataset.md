@@ -45,10 +45,21 @@ mnist = tf.keras.datasets.mnist
 # load dataset
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 ```
-Actual data to pass through the deep neural network
+Actual data to pass through the deep neural network. Pixel values range from 0-255
 
 ```python
 print(x_train[0])
 ```
 ![MNIST](https://raw.githubusercontent.com/ZainAmin/zainamin.github.io/master/images/imagepixeldata.PNG "MNIST")
+
+Actual image of the Above Data
+
+```python
+plt.imshow(x_train[0])
+plt.show()
+```
+
+
+
+
 
