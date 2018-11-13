@@ -14,3 +14,18 @@ The state of the art result for MNIST dataset has an accuracy of 99.79%. In this
 
 ## MNIST Dataset
 ![MNIST](https://raw.githubusercontent.com/ZainAmin/zainamin.github.io/master/images/mnistimage.png "MNIST")
+
+The MNIST database (Modified National Institute of Standards and Technology database) is a large database of handwritten digits that is commonly used for training various image processing systems. The database is also widely used for training and testing in the field of machine learning. It has 60,000 grayscale images under the training set and 10,000 grayscale images under the test set. We will use the Keras library with Tensorflow backend to classify the images.
+
+## Installing Keras and Tensorflow
+
+Keras is an open source neural network library written in Python.It is capable of running on top of TensorFlow, Microsoft Cognitive Toolkit, or Theano. Designed to enable fast experimentation with deep neural networks.
+<a href="https://www.tensorflow.org/">website</a>.
+
+Tensorflow was developed by the Google Brain team. To learn more about it, visit there official <a href="https://www.tensorflow.org/">website</a>.
+
+# Implementation
+
+First, we need to import all the libraries required.
+
+
