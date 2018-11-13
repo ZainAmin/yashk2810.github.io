@@ -31,6 +31,10 @@ First, we need to import all the libraries required.
 import matplotlib.pyplot as plt
 import tensorflow as tf
 import numpy as np
+from keras.datasets import mnist
+from keras.models import Sequential
+from keras.layers import Dense, Activation, Flatten
+from keras.optimizers import Adam
 ```
 
 The MNIST dataset is provided by Keras.
