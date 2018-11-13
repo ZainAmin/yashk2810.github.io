@@ -19,8 +19,7 @@ The MNIST database (Modified National Institute of Standards and Technology data
 
 ## Installing Keras and Tensorflow
 
-Keras is an open source neural network library written in Python.It is capable of running on top of TensorFlow, Microsoft Cognitive Toolkit, or Theano. Designed to enable fast experimentation with deep neural networks.
-<a href="https://www.tensorflow.org/">website</a>.
+Keras is an open source neural network library written in Python.It is capable of running on top of TensorFlow, Microsoft Cognitive Toolkit, or Theano. Designed to enable fast experimentation with deep neural networks. To learn more about it, visit there official <a href="https://www.tensorflow.org/">website</a>.
 
 Tensorflow was developed by the Google Brain team. To learn more about it, visit there official <a href="https://www.tensorflow.org/">website</a>.
 
@@ -28,4 +27,17 @@ Tensorflow was developed by the Google Brain team. To learn more about it, visit
 
 First, we need to import all the libraries required.
 
+```python
+import matplotlib.pyplot as plt
+import tensorflow as tf
+import numpy as np
+```
 
+The MNIST dataset is provided by Keras.
+
+```python
+# 28x28 images of hand-written digits 0-9
+mnist = tf.keras.datasets.mnist
+# load dataset
+(x_train, y_train), (x_test, y_test) = mnist.load_data()
+```
