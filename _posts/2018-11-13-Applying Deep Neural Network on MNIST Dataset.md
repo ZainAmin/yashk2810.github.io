@@ -3,8 +3,6 @@ layout: post
 title: Applying Deep Neural Network on the MNIST dataset
 ---
 
-## Introduction
-
 A deep neural network (DNN) is an artificial neural network (ANN) with multiple layers between the input and output layer. Deep neural
 networks have been used on a variety of tasks, including computer vision, speech recognition, natural language processing, machine 
 translation, audio recognition, social network filtering, playing board and video games and medical diagnosis. Deep neural networks 
