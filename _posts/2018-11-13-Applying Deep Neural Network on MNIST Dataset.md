@@ -68,15 +68,19 @@ plt.show()
 ```
 ![MNIST](https://raw.githubusercontent.com/ZainAmin/zainamin.github.io/master/images/actualimagebinary.PNG "MNIST")
 
-Now we have to normalize the image data to scale pixel values between 0-1 instead of 0-255
+Now we have to normalize the image data to scale pixel values between 0 to 1 instead of 0 to 255
 
 ```python
 x_train = tf.keras.utils.normalize(x_train, axis = 1)
 x_test = tf.keras.utils.normalize(x_test, axis = 1)
 ```
 
-Now the actual pixel values we have to pass through the deep neural network will be between 0-1 i.e. in binary form, as shown in figure below:
+Here we’ve rescaled the image data so that each pixel lies in the interval [0, 1] instead of [0, 255]. It is always a good idea to normalize the input so that each dimension has approximately the same scale.
+Now the actual pixel values we have to pass through the deep neural network will be in between 0 to 1. i.e. in binary form.
 
+## Deep Neural Network Model
+
+We use sequential model to feed forward the image through the deep neural network. 
 
 
 
