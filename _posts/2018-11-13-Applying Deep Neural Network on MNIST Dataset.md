@@ -13,3 +13,4 @@ vision tasks.
 The state of the art result for MNIST dataset has an accuracy of 99.79%. In this article, we will achieve an accuracy of 98.71%.
 
 ## MNIST Dataset
+![MNIST](https://github.com/ZainAmin/ZainAmin.github.io/blob/master/images/mnistimage.png "MNIST")
